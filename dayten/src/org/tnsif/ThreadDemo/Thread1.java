@@ -2,6 +2,7 @@ package org.tnsif.ThreadDemo;
 
 public class Thread1 extends Thread {
 	SyncronizationDemo s= new SyncronizationDemo();
+	private SyncronizationDemo d;
 	
 	
 	
@@ -16,7 +17,7 @@ public class Thread1 extends Thread {
 		try
 		{
 			d.print(15);
-		}catch (InteruptedException e) {
+		}catch (InterruptedException e) {
 			System.out.println(e);
 		}
 		
