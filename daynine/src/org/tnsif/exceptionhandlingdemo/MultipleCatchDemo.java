@@ -14,7 +14,7 @@ public class MultipleCatchDemo {
 		try {
 			int result = x/y;
 			System.out.println(result);
-		}
+		
 		
 		
 	}
@@ -23,4 +23,6 @@ public class MultipleCatchDemo {
 		System.out.println("Exception handling using catch :"+e);
 	}
 
+	}
 }
+

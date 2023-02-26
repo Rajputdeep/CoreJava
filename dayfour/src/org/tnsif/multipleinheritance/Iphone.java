@@ -24,6 +24,10 @@ public class Iphone extends Android {
 		return "Iphone [slottype=" + slottype + ", getVersion()=" + getVersion() + ", getModelno()=" + getModelno()
 				+ "]";
 	}
+	private String getModelno() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
     
 }

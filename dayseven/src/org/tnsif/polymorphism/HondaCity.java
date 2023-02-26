@@ -26,7 +26,7 @@ public class HondaCity {
 		
 	}
 	
-	//Constructor Overloading with no. of arguements
+	//Constructor Overloading with no. of arguments
 	public HondaCity(int speed, String color) {
 		super();
 		this.speed = speed;

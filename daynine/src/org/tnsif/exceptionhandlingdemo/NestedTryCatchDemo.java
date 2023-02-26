@@ -11,8 +11,8 @@ public class NestedTryCatchDemo {
 		int y=s.nextInt();
 		int arr[]= new int[] {11,22,33};
 		
-		try
-		{
+		
+		
 			
 		
 		try{
@@ -31,9 +31,7 @@ public class NestedTryCatchDemo {
 			System.out.println("Finally block");
 		}
 		
-		}
-	
-
+		
+		
 	}
-
 }

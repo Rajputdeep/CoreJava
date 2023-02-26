@@ -15,7 +15,7 @@ public class JaggedArray {
 			System.out.println("Enter the value for "+ i +" subscript " +" :");
 			int n=sc.nextInt();
 			arr[i]=new int[n];
-			for(int j=0;j<n;j++) {0
+			for(int j=0;j<n;j++) {
 				arr[i][j]=sc.nextInt();
 			}
 		}
